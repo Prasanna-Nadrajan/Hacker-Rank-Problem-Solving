@@ -23,6 +23,7 @@ The repository is organized into folders based on problem categories or platform
 The solutions are implemented in multiple languages, including:
 - Python
 - C
+- Java
 
 ## 🤝 Contributions
 Suggestions, improvements, or alternative approaches are welcome! Feel free to fork this repository and submit pull requests.
