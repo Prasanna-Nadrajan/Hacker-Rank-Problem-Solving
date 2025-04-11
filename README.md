@@ -22,7 +22,6 @@ The repository is organized into folders based on problem categories or platform
 ## 🔧 Languages Used
 The solutions are implemented in multiple languages, including:
 - Python
-- Java
 - C
 
 ## 🤝 Contributions
