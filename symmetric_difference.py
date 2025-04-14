@@ -1,0 +1,5 @@
+num1=int(input())
+s1=set(map(int,input().split()))
+num2=int(input())
+s2=set(map(int,input().split()))
+print(len(s1^s2))
