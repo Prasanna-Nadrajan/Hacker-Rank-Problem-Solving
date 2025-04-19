@@ -19,7 +19,7 @@ Each solution is written with clarity and efficiency, accompanied by comments fo
 ## 📂 Structure
 The repository is organized into folders based on problem categories or platforms (e.g., LeetCode, Codeforces, etc.). Each folder contains problem descriptions and solution files.
 
-## 🔧 Languages Used
+## 🔧 Language Used
 The solutions are implemented in Python
 
 ## 🤝 Contributions
