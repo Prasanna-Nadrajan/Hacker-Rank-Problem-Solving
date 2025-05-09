@@ -1,4 +1,4 @@
-# Problem-Solving with Python and C
+# Problem-Solving in Hackerrank
 
 Welcome to my collection of coding challenges and solutions! This repository serves as a documentation of my journey in solving algorithmic and programming problems, highlighting my progress and growth as a programmer.
 
