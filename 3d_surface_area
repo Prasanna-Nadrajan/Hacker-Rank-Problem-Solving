@@ -1,0 +1,69 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'surfaceArea' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY A as parameter.
+#
+
+# def surfaceArea(A):
+#     area=0
+#     for i in range(len(A)):
+#         for j in range(len(A[i])):
+#             if(A[i][j]!=0):
+#                 area+=2
+def aa(A):
+    t_area=0
+    for i in range(len(A)):
+        if(i==0):
+            t_area+=sum(A[i])
+        else:
+            for j in range(len(A[i])):
+                if(A[i][j]>=A[i-1][j]):
+                    t_area+=A[i][j]-A[i-1][j]
+    return t_area
+    
+def surfaceArea(A):
+    # Write your code here
+    area=0
+    for i in range(len(A)):
+        for j in range(len(A[i])):
+            if(A[i][j]!=0):
+                area+=2
+    area+=aa(A)
+    ta=[list(row[::-1]) for row in zip(*A[::-1])]
+    area+=aa(ta)
+    ta1=A.copy()
+    ta1.reverse()
+    area+=aa(ta1)
+    ta2=[list(row) for row in zip(*A[::-1])]
+    ta2.reverse()
+    area+=aa(ta2)
+    return(area)
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    first_multiple_input = input().rstrip().split()
+
+    H = int(first_multiple_input[0])
+
+    W = int(first_multiple_input[1])
+
+    A = []
+
+    for _ in range(H):
+        A.append(list(map(int, input().rstrip().split())))
+
+    result = surfaceArea(A)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
