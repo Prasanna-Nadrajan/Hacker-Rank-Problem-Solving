@@ -9,7 +9,7 @@ This repository contains solutions to various coding problems, spanning topics l
 - Math and Logic Challenges
 - Real-World Scenarios
 
-Each solution is written with clarity and efficiency, accompanied by comments for better understanding.
+Each solution is written with clarity and efficiency, accompanied by comments for better understanding... 
 
 ## 🚀 Purpose
 - Sharpen problem-solving skills.
