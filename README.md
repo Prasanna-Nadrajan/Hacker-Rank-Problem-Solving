@@ -20,7 +20,7 @@ Each solution is written with clarity and efficiency, accompanied by comments fo
 The repository is organized into folders based on problem categories or platforms (e.g., LeetCode, Codeforces, etc.). Each folder contains problem descriptions and solution files.
 
 ## 🔧 Language Used
-The solutions are implemented in Python and C programming Language
+The solutions are implemented in Python and C programming Language. 
 
 ## 🤝 Contributions
 Suggestions, improvements, or alternative approaches are welcome! Feel free to fork this repository and submit pull requests.
